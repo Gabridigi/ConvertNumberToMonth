@@ -5,6 +5,6 @@ public class App {
         System.out.println("Inserisci il numero a cui far corrsispondere il mese");
         int numero= input.nextInt();
         String mesi= " January February  March    April     May      June     July    August  September October November December ";
-        System.out.println(mesi.substring(numero*9-9, numero*9));
+        System.out.println(mesi.substring(numero*9-9, numero*9));   //Secondo me qui il commento ci stava :(
     }
 }
